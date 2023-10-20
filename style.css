@@ -1,0 +1,54 @@
+body {
+
+    font-family: 'Times New Roman', Arial, serif;
+
+    background-image: url('./Irish\ scones.jpg');
+    
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    
+    background-size: 100% 100%;
+    }
+.container_top{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 158, 96);
+    border: 2px solid black;
+    flex-wrap: wrap;
+    
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.main{
+    
+    background-color: rgb(248, 246, 240);
+    text-align: center;
+    font-size: 35px;
+}
+.mini{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.text{
+    background-color: rgb(248, 246, 240);
+    margin: 20px
+}
+
+
+  .column{
+   flex: 1;
+ }
+ol.todo {
+    list-style-type: lower-latin;
+  }
